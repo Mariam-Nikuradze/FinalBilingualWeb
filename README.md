@@ -5,3 +5,5 @@ Assignments distributed
 Issues created
 New Index.html file
 New Reset.css file
+Uploaded Css files
+Added images
