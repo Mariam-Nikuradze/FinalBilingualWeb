@@ -1,0 +1,28 @@
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@{
+    if (@ViewBag.language == "en")
+    {
+        var link = @Request.Url.PathAndQuery.ToString().Replace("en", "ka");
+        <li class="change-language"><a href='@link'>Geo</a></li>
+    }
+
+    else
+    {
+        var link = @Request.Url.PathAndQuery.ToString();
+        if (link.Contains("ka")) link = link.Replace("ka", "en");
+        else link = link.ToString() + "en";
+        <li class="change-language"><a href='@link'>Eng</a></li>
+    }
+
+}
+
+<h2> @WebApplication1.resources.Resource1.Title
+</h2>
+
+
+<p> @WebApplication1.resources.Resource1.Body
+    </p>
