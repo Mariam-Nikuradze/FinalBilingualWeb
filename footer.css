@@ -1,0 +1,25 @@
+#footerdiv
+{
+    color:dimgray;
+    font-size: 16px;
+    font-weight: bold;
+    alignment: center;
+    text-align: center;
+}
+.footerimg {
+    float:left;
+    padding-right: 130px;
+    padding-left: 130px;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+#contact{
+    margin-left: 20%;
+    margin-right: 20%;
+
+    color:dimgray;
+    font-size: 16px;
+    font-weight: bold;
+    alignment: center;
+    text-align: center;
+}
